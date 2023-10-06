@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor de Código Morse</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Traductor de Código Morse</h1>
+        <div class="translator">
+            <div class="input-container">
+                <label for="inputText">Texto o Código Morse:</label>
+                <textarea id="inputText" class="form-control" rows="4" placeholder="Ingresa texto o código Morse"></textarea>
+            </div>
+            <div class="buttons">
+                <button id="decodeButton" class="btn btn-primary">Decodificar a Texto</button>
+                <button id="encodeButton" class="btn btn-primary">Codificar a Morse</button>
+            </div>
+            <div class="output-container">
+                <label for="outputText">Resultado:</label>
+                <textarea id="outputText" class="form-control" rows="4" placeholder="Resultado" readonly></textarea>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5">
+        <p>Derechos de autor &copy; 2023 Dave Alejandro Merchan Salcedo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
